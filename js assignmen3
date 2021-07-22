@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript Assignment</title>
+    </head>
+    <body>
+        <h1>Javascript Assignment</h1>
+
+		<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" onclick="buttonClick1()"height=200px>
+		<input type="text" id="inc1" value="0"></input>
+		<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" onclick="buttonClick2()"height=200px>
+		<input type="text" id="inc2" value="0"></input>
+
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" onclick="buttonClick3()"height=200px>
+        <input type="text" id="inc3" value="0"></input>
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" onclick="buttonClick4()"height=200px>
+        <input type="text" id="inc4" value="0"></input>
+        
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" onclick="buttonClick5()"height=200px>
+        <input type="text" id="inc5" value="0"></input>
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" onclick="buttonClick6()"height=200px>
+        <input type="text" id="inc6" value="0"></input>
+
+        <script>
+ 
+    var i = 0;
+    var j = 0;
+
+    var k = 0;
+    var l = 0;
+    
+    var m = 0;
+    var n = 0;
+    
+    function buttonClick1() {
+        document.getElementById('inc1').value = ++i;
+    }
+       function buttonClick2() {
+        document.getElementById('inc2').value = ++j;
+    }
+    function buttonClick3() {
+        document.getElementById('inc3').value = ++k;
+    }
+       function buttonClick4() {
+        document.getElementById('inc4').value = ++l;
+    }
+    function buttonClick5() {
+        document.getElementById('inc5').value = ++m;
+    }
+       function buttonClick6() {
+        document.getElementById('inc6').value = ++n;
+    }
+</script>
+    </body>
+</html>
